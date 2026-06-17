@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chouaiib Hebboul | Software Engineering Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="navbar">
+  <div class="logo">Chouaiib<span class="dot">.</span></div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="cv-dropdown">
+    <button class="btn btn-primary" id="cvBtn">Download CV ▾</button>
+    <div class="cv-menu" id="cvMenu">
+      <a href="cv_english.pdf" download>English Version</a>
+      <a href="cv_french.pdf" download>Version Française</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Hello, I'm</p>
+      <h1>Chouaiib <span class="highlight">Hebboul</span></h1>
+      <h2 class="hero-role">Software Engineering Student</h2>
+      <p class="hero-desc">
+        Passionate about software development, operating systems, databases and mobile applications,
+        with a strong focus on web development. I enjoy turning ideas into real, working projects.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/hebboulchouaib" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.04-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.49 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.89-.01 3.29 0 .32.22.7.83.58A12 12 0 0 0 24 12C24 5.37 18.63 0 12 0z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/chouaib-hebboul-4b8b51394/" target="_blank" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="mailto:hebboulchouaibabde@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-card">
+        <div class="initials">CH</div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title"><span class="num">01.</span> Who Am I?</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a Computer Science student interested in software engineering, system programming,
+          databases and mobile development. I'm currently in my 3rd year (licence) at USTHB,
+          studying Computer Science. I love exploring how things work under the hood and turning
+          ideas into real, functional projects.
+        </p>
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-label">Education</span>
+            <span class="info-value">3rd Year Licence — Computer Science, USTHB (Currently studying)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Languages</span>
+            <span class="info-value">Arabic, French, English</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Location</span>
+            <span class="info-value">Algiers, Algeria</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="card-glow"></div>
+        <h3>Quick Facts</h3>
+        <ul>
+          <li>🎓 Computer Science Student</li>
+          <li>💻 Software & Systems Enthusiast</li>
+          <li>🗄️ Databases & JDBC</li>
+          <li>📱 Mobile Development Interest</li>
+          <li>🌐 Web Development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="section">
+    <h2 class="section-title"><span class="num">02.</span> Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">⌨️</div>
+        <h3>Languages</h3>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>SQL*Plus</li>
+          <li>Assembly x86</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Technologies & Tools</h3>
+        <ul>
+          <li>SDL2</li>
+          <li>Oracle Database</li>
+          <li>JDBC</li>
+          <li>Linux</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌍</div>
+        <h3>Languages I Speak</h3>
+        <ul>
+          <li>Arabic</li>
+          <li>French</li>
+          <li>English</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title"><span class="num">03.</span> Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">🎮</span>
+          <h3>2048 Game</h3>
+        </div>
+        <p>Built a complete 2048 game using C and SDL2 with custom rendering, score tracking and full tile movement/merge logic.</p>
+        <div class="tags">
+          <span class="tag">C</span>
+          <span class="tag">SDL2</span>
+          <span class="tag">Game Dev</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">📚</span>
+          <h3>Library Management System</h3>
+        </div>
+        <p>Java and Oracle Database application for managing university book loans and returns, using JDBC for database connectivity.</p>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Oracle DB</span>
+          <span class="tag">JDBC</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">🧮</span>
+          <h3>Assembly Calculator</h3>
+        </div>
+        <p>A calculator developed in x86 Assembly supporting arithmetic, logical operations and multiple number bases.</p>
+        <div class="tags">
+          <span class="tag">Assembly x86</span>
+          <span class="tag">Low-Level</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title"><span class="num">04.</span> Get In Touch</h2>
+    <p class="contact-text">I'm currently open to internships, collaborations and new opportunities. Feel free to reach out!</p>
+    <div class="contact-grid">
+      <a href="mailto:hebboulchouaibabde@gmail.com" class="contact-card">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <h4>Email</h4>
+          <p>hebboulchouaibabde@gmail.com</p>
+        </div>
+      </a>
+      <a href="tel:+213777256920" class="contact-card">
+        <span class="contact-icon">📞</span>
+        <div>
+          <h4>Phone</h4>
+          <p>+213 777 256 920</p>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/chouaib-hebboul-4b8b51394/" target="_blank" class="contact-card">
+        <span class="contact-icon">💼</span>
+        <div>
+          <h4>LinkedIn</h4>
+          <p>chouaib-hebboul</p>
+        </div>
+      </a>
+      <a href="https://github.com/hebboulchouaib" target="_blank" class="contact-card">
+        <span class="contact-icon">💻</span>
+        <div>
+          <h4>GitHub</h4>
+          <p>hebboulchouaib</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Chouaiib Hebboul. All rights reserved.</p>
+</footer>
+
+<script>
+  const cvBtn = document.getElementById('cvBtn');
+  const cvMenu = document.getElementById('cvMenu');
+  cvBtn.addEventListener('click', () => {
+    cvMenu.classList.toggle('show');
+  });
+  document.addEventListener('click', (e) => {
+    if (!cvBtn.contains(e.target) && !cvMenu.contains(e.target)) {
+      cvMenu.classList.remove('show');
+    }
+  });
+</script>
+
+</body>
+</html>
