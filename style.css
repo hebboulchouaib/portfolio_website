@@ -649,3 +649,8 @@ ul {
     padding: 60px 5%;
   }
 }
+.project-btn {
+  align-self: flex-start;
+  font-size: 0.85rem;
+  padding: 9px 20px;
+}
